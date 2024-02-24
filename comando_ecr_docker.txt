@@ -1,0 +1,24 @@
+#login no ECR AWS
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 730335661438.dkr.ecr.us-east-1.amazonaws.com
+
+
+#construir o imagem/container no diretorio onde tem o Dockerfile
+docker build -t app-repo .
+
+-------------------------------
+#TAG
+#fornecer uma tag à imagem que você usará
+docker tag app-repo:latest 730335661438.dkr.ecr.us-east-1.amazonaws.com/app-repo:latest
+
+#pedido
+docker tag app-repo:latest 730335661438.dkr.ecr.us-east-1.amazonaws.com/repositorio-pedido:latest
+
+
+----------------------------------
+#PUSH
+#docker push para enviar e publicar a imagem no repositório ECR
+docker push 730335661438.dkr.ecr.us-east-1.amazonaws.com/app-repo:latest
+
+
+#pedido
+docker push 730335661438.dkr.ecr.us-east-1.amazonaws.com/repositorio-pedido:latest
