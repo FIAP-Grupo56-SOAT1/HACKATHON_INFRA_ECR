@@ -18,15 +18,15 @@ variable "managedby" {
 
 variable "nome_repositorio_pedido" {
   type    = string
-  default = "repositorio-pedido"
+  default = "microservico-pedido"
 }
 
 variable "nome_repositorio_pagamento" {
   type    = string
-  default = "repositorio-pagamento"
+  default = "microservico-pagamento"
 }
 
 variable "nome_repositorio_cozinha" {
   type    = string
-  default = "repositorio-cozinha"
+  default = "microservico-cozinha"
 }
