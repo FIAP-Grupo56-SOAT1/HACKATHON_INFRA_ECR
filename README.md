@@ -1,6 +1,6 @@
 # Infraestrutura de repositorio de imagens docker com ECR
 
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/FIAP-Grupo56-SOAT1/INFRA_ECR_FAST-EATS/deploy-producao.yml?logo=github)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/FIAP-Grupo56-SOAT1/HACKATHON_INFRA_ECR/deploy-producao.yml?logo=github)
 
 Este repositório é dedicado à configuração e gerenciamento da infraestrutura repositorio de imagens docker com ECR.
 

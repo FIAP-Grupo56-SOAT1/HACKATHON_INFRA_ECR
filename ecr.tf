@@ -1,14 +1,4 @@
-resource "aws_ecr_repository" "microservico-pedido" {
-  name = var.nome_repositorio_pedido
-  force_delete = true
-}
-
-resource "aws_ecr_repository" "microservico-pagamento" {
-  name = var.nome_repositorio_pagamento
-  force_delete = true
-}
-
-resource "aws_ecr_repository" "microservico-cozinha" {
-  name = var.nome_repositorio_cozinha
+resource "aws_ecr_repository" "microservico-hackathon" {
+  name = var.nome_repositorio_hackathon
   force_delete = true
 }

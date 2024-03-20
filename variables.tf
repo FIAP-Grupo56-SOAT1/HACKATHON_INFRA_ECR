@@ -7,7 +7,7 @@ variable "region" {
 variable "owner" {
   description = "Dono da conta"
   type        = string
-  default     = "fasteats"
+  default     = "hackathon"
 }
 
 variable "managedby" {
@@ -16,17 +16,7 @@ variable "managedby" {
   default     = "terraform"
 }
 
-variable "nome_repositorio_pedido" {
+variable "nome_repositorio_hackathon" {
   type    = string
-  default = "microservico-pedido"
-}
-
-variable "nome_repositorio_pagamento" {
-  type    = string
-  default = "microservico-pagamento"
-}
-
-variable "nome_repositorio_cozinha" {
-  type    = string
-  default = "microservico-cozinha"
+  default = "microservico-hackathon"
 }
