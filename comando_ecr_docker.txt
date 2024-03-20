@@ -10,8 +10,8 @@ docker build -t app-repo .
 #fornecer uma tag à imagem que você usará
 docker tag app-repo:latest 730335661438.dkr.ecr.us-east-1.amazonaws.com/app-repo:latest
 
-#hackathon
-docker tag app-repo:latest 730335661438.dkr.ecr.us-east-1.amazonaws.com/repositorio-hackathon:latest
+#timesheet
+docker tag app-repo:latest 730335661438.dkr.ecr.us-east-1.amazonaws.com/repositorio-timesheet:latest
 
 
 ----------------------------------
@@ -20,5 +20,5 @@ docker tag app-repo:latest 730335661438.dkr.ecr.us-east-1.amazonaws.com/reposito
 docker push 730335661438.dkr.ecr.us-east-1.amazonaws.com/app-repo:latest
 
 
-#hackathon
-docker push 730335661438.dkr.ecr.us-east-1.amazonaws.com/repositorio-hackathon:latest
+#timesheet
+docker push 730335661438.dkr.ecr.us-east-1.amazonaws.com/repositorio-timesheet:latest

@@ -16,7 +16,7 @@ variable "managedby" {
   default     = "terraform"
 }
 
-variable "nome_repositorio_hackathon" {
+variable "nome_repositorio_timesheet" {
   type    = string
-  default = "microservico-hackathon"
+  default = "microservico-timesheet"
 }
