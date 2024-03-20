@@ -10,7 +10,7 @@ terraform {
 
   backend "s3" {
     bucket = "bucket-fiap56-to-remote-state"
-    key    = "aws-infra-ecr-fiap56/terraform.tfstate"
+    key    = "aws-infra-ecr-hackathon-fiap56/terraform.tfstate"
     region = "us-east-1"
   }
 }
